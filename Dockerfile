@@ -22,4 +22,4 @@ COPY client.sh /
 COPY mxz_3.0.4.1_386.run /
 COPY supervisord.conf /
 RUN chmod 777 /mxz_3.0.4.1_386.run && chmod 777 /client.sh
-CMD ["/supervisord"]
+CMD ["/usr/bin/supervisord"]

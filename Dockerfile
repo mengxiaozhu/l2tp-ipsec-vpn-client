@@ -8,6 +8,8 @@ RUN set -x && \
               xl2tpd \
               ppp \
               supervisor \
+              curl \
+              
     && mkdir -p /var/run/xl2tpd \
     && touch /var/run/xl2tpd/l2tp-control
 

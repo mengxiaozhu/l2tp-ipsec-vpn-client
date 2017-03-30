@@ -7,7 +7,7 @@ RUN set -x && \
               strongswan \
               xl2tpd \
               ppp \
-              supervisord \
+              supervisor \
     && mkdir -p /var/run/xl2tpd \
     && touch /var/run/xl2tpd/l2tp-control
 
